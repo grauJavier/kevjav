@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Barlow:600|Rasa:300,500');
+
+* {
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #251e3e;
+    font-family: 'Rasa', serif;
+    color: white;
+}
+
+li {
+    list-style: none;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+div {
+    display: inline-block;
+}
+
+.button {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#header {
+    position: fixed;
+    font-family: 'Barlow', sans-serif;
+    background-color: #051e3e;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+#header-img {
+    margin: auto;
+    max-width: 150px;
+    padding-left: 10px;
+}
+
+#logo {
+    width: 60vw;
+}
+
+nav#nav-bar {
+    float: right;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding-right: 10px;
+}
+
+.nav-link {
+    font-family: 'Barlow', sans-serif;
+    color:white;
+    text-decoration: none;
+}
+
+#page {
+    text-align: center;
+    margin-block-start: 7em;
+    margin-block-end: 20em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 100%;
+}
+
+#email-section{
+    display: block;
+    margin: auto;
+}
+
+#features {
+    text-align: center;
+    padding-top: 60px;
+    padding-right: 0px;
+    padding-bottom: 60px;
+    width: 400px;
+}
+
+#video {
+    text-align: center;
+    border: 0px;
+}
+
+iframe {
+    border: 0px;
+}
+
+.flex-container {
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: ;
+    }
+  }
